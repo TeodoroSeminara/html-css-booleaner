@@ -11,38 +11,65 @@ header {
 
 /* Body */
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
-.booleaner{
+/* figure */
+.booleaner {
     text-decoration: none;
     color: aqua;
 }
 
-.text-gray{
+.text-gray {
     color: grey;
     font-style: initial;
 }
 
-.image-tim{
+.image-tim {
     margin: 0;
 }
 
-ul{
+.text-small {
+    font-size: 12px;
+}
+
+/* list */
+ul {
     padding: 10px;
 }
 
 /* table */
 
-.table-head{
-    background-color:#1FAAE4;
+.table-head {
+    background-color: #1FAAE4;
 }
 
-.tr-odd{
-    background-color:#B1E6F2 ;
+.tr-odd {
+    background-color: #B1E6F2;
 }
-.tr-even{
-    background-color:##B1E6F2 ;
+
+.tr-even {
+    background-color: ##B1E6F2;
+}
+
+/* footer */
+
+.image-footer {
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.image-pc {
+    background-image: url(../img/monitor.jpg);
+}
+
+.image-graph {
+    background-image: url(../img/graph.jpg);
 }
