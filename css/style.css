@@ -1,13 +1,18 @@
 /* head */
-header {
+.bg-header {
     background-image: url("../img/pattern.png");
-    max-height: 180px;
+    background-size: 30%;
     background-color: #4EA1FF;
+    max-height: 100px;
+    
+    /* padding: 50px; */
 }
 
-/* .image-header{
-    height: 100px;
-} */
+.logo-header{
+    height: 50px;
+    margin: 50px 0;
+    
+}
 
 /* Body */
 
@@ -42,8 +47,13 @@ ul {
 
 /* table */
 
+table{
+    border-collapse: collapse;
+}
+
 .table-head {
     background-color: #1FAAE4;
+    text-align: left;
 }
 
 .tr-odd {
@@ -51,9 +61,16 @@ ul {
 }
 
 .tr-even {
-    background-color: ##B1E6F2;
+    background-color: rgb(254, 250, 250);
 }
 
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
+}
 /* footer */
 
 .image-footer {
