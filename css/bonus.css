@@ -1,0 +1,108 @@
+/* head */
+.bg-header {
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+    background-color: #4EA1FF;
+    max-height: 100px;
+    background-position: 0px ;
+    position: relative;
+}
+
+.logo-header {
+    height: 50px;
+    margin: 40px 0;
+    position: absolute;
+    left: -150px;
+}
+header{
+
+}
+
+/* Body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* main container */
+.container {
+    max-width: 1280px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* figure */
+.booleaner {
+    text-decoration: none;
+    color: aqua;
+}
+
+.text-gray {
+    color: grey;
+    font-style: initial;
+}
+
+.image-tim {
+    margin: 0;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+/* list */
+ul {
+    padding: 10px;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #1FAAE4;
+    text-align: left;
+}
+
+.tr-odd {
+    background-color: #B1E6F2;
+}
+
+.tr-even {
+    background-color: rgb(254, 250, 250);
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* footer */
+
+.image-footer {
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.image-pc {
+    background-image: url(../img/monitor.jpg);
+}
+
+.image-graph {
+    background-image: url(../img/graph.jpg);
+}
