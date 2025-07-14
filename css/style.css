@@ -29,3 +29,20 @@ body{
 .image-tim{
     margin: 0;
 }
+
+ul{
+    padding: 10px;
+}
+
+/* table */
+
+.table-head{
+    background-color:#1FAAE4;
+}
+
+.tr-odd{
+    background-color:#B1E6F2 ;
+}
+.tr-even{
+    background-color:##B1E6F2 ;
+}
