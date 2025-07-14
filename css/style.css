@@ -1,0 +1,10 @@
+/* head */
+header {
+    background-image: url("../img/pattern.png");
+    max-height: 180px;
+    background-color: #4EA1FF;
+}
+
+/* .image-header{
+    height: 100px;
+} */
