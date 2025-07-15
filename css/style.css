@@ -85,13 +85,13 @@ table{
 .image-footer {
     width: 250px;
     height: 200px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    /* sarebbe meglio usare bg-size cover */
     color: white;
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
 }
-
+/* correzione sarebbe meglio mettere il testo all'interno di un h piuttosto che lasciarlo libero */
 .image-pc {
     background-image: url(../img/monitor.jpg);
 }

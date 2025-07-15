@@ -6,6 +6,15 @@
     max-height: 100px;
 
 }
+
+/* header{
+    background-image: url(../img/pattern.png);
+    background-size: 20%;
+    background-color: #4EA1FF;
+    max-height: 100px;
+}  correzione: immagine su header*/
+
+
 /* soluzione temporanea, con la % si sposta in base alla dimensione schermo */
 .logo-header {
     height: 50px;
@@ -92,6 +101,9 @@ table {
     font-weight: 600;
     padding: 10px;
 }
+
+/* correzione sarebbe meglio mettere il testo all'interno di un h piuttosto che lasciarlo libero */
+
 
 .image-pc {
     background-image: url(../img/monitor.jpg);
